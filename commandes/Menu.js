@@ -34,7 +34,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭─────────────────☉
 │▫️╭─────────────☉
-│  │ *GOJOU-MD*
+│  │ *Senal-MD*
 │▫️│*BOT-OWNER* : ${s.OWNER_NAME}
 │▫️│*Date* : ${date}
 │▫️│*PREFIX* : ${s.PREFIXE}
@@ -46,8 +46,8 @@ const date = moment().format('DD/MM/YYYY');
 │▫️╰──────────────☉
 ╰──────────────────☉
 ╭───────────────☉
- ☉〘 Gojou-MD 〙☉
- ☉by David Cyril☉
+ ☉〘 Senal-MD 〙☉
+ ☉by Mr Senal☉
 ╰───────────────☉\n`;
     
 let menuMsg = `
@@ -55,7 +55,7 @@ let menuMsg = `
     *YOWAIMO*
 ╰─────────☉
 
- *⚡GOJOU-MD COMMAND LIST⚡*
+ *⚡Senal-MD COMMAND LIST⚡*
 `;
 
     for (const cat in coms) {
@@ -71,10 +71,10 @@ let menuMsg = `
     menuMsg += `
             
 *———————————————————————————*
-|▫️Gojou-MD
+|▫️Senal-MD
 |▫️a Multi device whatsapp bot
-|▫️Created by _David Cyril_
-|▫️_Repo_ :https://github.com/DeeCeeXxx/Gojou-MD
+|▫️Created by _Senal-MD_
+|▫️_Repo_ :https://github.com/
 *———————————————————————————*
 `;
 
