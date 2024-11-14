@@ -1,9 +1,9 @@
 {
-  "name":"Gojou-MD",
+  "name":"Senal-MD",
   "description":"Deploy now your Gojou md ,Brought to you by the David Cyril.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.imgur.com/YKVlucn.jpeg",
-  "repository":"https://github.com/DeeCeeXxx/Gojou-MD",
+  "repository":"https://github.com/",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,8 +35,8 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"Gojo MD",
-      "required":false
+      "value":"Senal MD",
+      "required":true
 
     } ,
      "BOT_MENU_LINKS" : {
@@ -67,7 +67,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID, the code you received after pairing code",   
-      "value":"",
+      "value":"Am0EETTb#Q0CLGC5zKxSaXG-3_yxDr3ILpUvY818F-o8u88mpToQ",
       "required":true
       
     },
@@ -76,19 +76,19 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "David Cyril"
+    "value": "Mr Senal"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '234')",
-    "required":false,
-    "value": "2349066528353"
+    "required":true,
+    "value": "0769872326"
   },
     "WARN_COUNT":
   {
     "desc": "this is the limit of warn for warning commandes",
-    "required": false,
+    "required": true,
     "value": "3"
   },
   "STARTING_BOT_MESSAGE":
