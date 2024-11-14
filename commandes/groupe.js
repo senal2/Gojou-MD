@@ -32,13 +32,13 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `========================\n  
-        *Gojou-md*
+        *Senal-MD*
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Autor : *${nomAuteurMessage}* 👋 
 📜 Message : *${mess}* 📝
 
-⬡keep using⬡┃Gojou-MD┃⬡
+⬡keep using⬡┃Senal-MD┃⬡
 ========================\n
 \n
 
@@ -677,7 +677,7 @@ zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'Zokou-tag',
+          pack: 'Senal-tag',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -743,7 +743,7 @@ zokou({ nomCom: "apk", reaction: "✨", categorie: "Research" }, async (dest, zk
 
     const downloadLink = appData.dllink;
     const captionText =
-      "⬡┃TKM bot┃⬡apk downloader┃⬡\n\n*Name :* " + appData.name +
+      "⬡┃Senal bot┃⬡apk downloader┃⬡\n\n*Name :* " + appData.name +
       "\n*Id :* " + appData["package"] +
       "\n*Last Update :* " + appData.lastup +
       "\n*Size :* " + appData.size +
