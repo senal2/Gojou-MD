@@ -112,14 +112,14 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "💞" }, async (dest, zk
 
     const devs = [
 
-      { nom: "David Cyril", numero: "2349066528353" },
+      { nom: "Mr Senal", numero: "0769872326" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
 
     ];
 
 
 
-    let message = "Yowaimo!!!👋 welcome to *Gojou-MD* ! here is the dev :\n\n";
+    let message = "Hello!!!👋 welcome to *Senal-MD* ! here is the dev :\n\n";
 
     for (const dev of devs) {
 
